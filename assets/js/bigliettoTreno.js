@@ -1,5 +1,5 @@
-const userAge = prompt('età del passeggero');
-const distanza = prompt('distanza da percorrere');
+const userAge = parseInt(prompt('età del passeggero'));
+const distanza = parseInt(prompt('distanza da percorrere'));
 
 let price = ('0,21€ * km');
 
@@ -12,6 +12,8 @@ if (userAge < 18) {
         console.log ('hai il prezzo base');
     }
 }
+
+const risultato = userAge + price ( distanza + parseInt(price));
 
 const outputDiv = document.getElementById("output");
 
