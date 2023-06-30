@@ -13,7 +13,7 @@ if (userAge < 18) {
     }
 }
 
-const risultato = userAge + price ( distanza + parseInt(price));
+const risultato = userAge + distanza ( distanza * parseInt(price));
 
 const outputDiv = document.getElementById("output");
 
